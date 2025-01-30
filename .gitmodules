@@ -1,0 +1,6 @@
+[submodule "sistema-backend"]
+	path = sistema-backend
+	url = git@github.com:tallysprado/sistema-backend.git
+[submodule "sistema-frontend"]
+	path = sistema-frontend
+	url = git@github.com:tallysprado/sistema-frontend.git
