@@ -1,7 +1,16 @@
 # SistemaContainer
-## Versão separada em repositórios
+# Configuração para rodar todos os projetos dentro de um único container.
 
-### Após fazer o clone do repositório é necessário carregar os sub-módulos do __git__.
+### Siga os passos para criar o container:
+- Faça o clone da aplicação
+```shell script
+git clone https://github.com/tallysprado/container.git
+```
+- Entre no repositório clonado
+```shell script
+cd container
+```
+- Faça o clone dos submódulos do projeto sistema-frontend e sistema-backend
 ```shell script
 git submodule update --init --recursive
 ```
@@ -11,11 +20,15 @@ git submodule update --init --recursive
 docker-compose up --build
 ```
 
+## A aplicação pode ser acessada em <http://127.0.0.1:4200> utilizando as credenciais:
+### Usuário: __universidade__
+### Senha: __123__
 
+___
 ## Dentro de cada repositório há a documentação de como rodar a aplicação localmente em ambiente de desenvolvimento.
 ## Esta configuração usa o perfil de testes para construção do container. Em cada repositório há os passos de como executar o perfil de desenvolvimento (local).
 
-#### Cenários de teste:
+### Cenários de teste:
 - Menu "Usuários -> Criar": (criar usuários para acessar a aplicação através da matrícula e senha 123)
     - Nome, Cargo e CPF são dados obrigatórios e exclusivos (validação backend para exception de constraint)
     - A depender do cargo, será criado uma entidade Aluno, Professor ou Coordenador e será associada 
