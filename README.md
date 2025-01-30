@@ -2,7 +2,7 @@
 # Configuração para rodar todos os projetos dentro de um único container.
 ## OBS: Neste container, faz-se referências à branch docker/card01 do repositório do projeto __sistema-backend__ e __sistema_frontend__.
 ## Se for acessar os repositórios por outra referência fora este contexto, certifique-se utilizar a _branch_ correta.
-
+#### <https://youtu.be/HTRFQ38m940>
 ### Siga os passos para criar o container:
 - Faça o clone da aplicação
 ```shell script
