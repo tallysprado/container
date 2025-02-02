@@ -25,7 +25,7 @@ docker-compose up --build
 ## A aplicação pode ser acessada em <http://127.0.0.1:4200> utilizando as credenciais:
 ### Usuário: __universidade__
 ### Senha: __123__
-
+#### Faça login na aplicação através da matrícula dos usuários criados. Utilize a senha __123__.
 ___
 ## Dentro de cada repositório há a documentação de como rodar a aplicação localmente em ambiente de desenvolvimento.
 ## Esta configuração usa o perfil de testes para construção do container. Em cada repositório há os passos de como executar o perfil de desenvolvimento (local).
