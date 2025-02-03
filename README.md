@@ -29,6 +29,16 @@ docker-compose up --build
 ___
 ## Dentro de cada repositório há a documentação de como rodar a aplicação localmente em ambiente de desenvolvimento.
 ## Esta configuração usa o perfil de testes para construção do container. Em cada repositório há os passos de como executar o perfil de desenvolvimento (local).
+## O __compose__ deste repositório irá criar quatro containers:
+- Container Angular, utilizando a imagem do Node
+- Container Quarkus, utilizando imagem Quarkus
+- Container Keycloak, utilizando imagem Keycloak
+- Container PSQL, Utilizando imagem PostgreSQL
+## Para executar a aplicação localmente fora dos containers, deve-se garantir que este __compose__ não esteja em execução:
+```shell script
+docker-compose down -v
+```
+## e acessar a documentação de cada repositório separadamente.
 
 ### Cenários de teste:
 - Menu "Usuários -> Criar": (criar usuários para acessar a aplicação através da matrícula e senha 123)
