@@ -69,7 +69,7 @@ docker-compose down -v
 ROLE_COORDENADOR e ROLE_ALUNO. Deve-se considerar no teste, atribuir diferentes papéis ao usuário e verificar a página
 de acesso negado ao tentar acessar uma rota não autorizada. O papel de coordenador tem mais funcionalidades implementadas,
 porém vale testar o acesso à rota <http://localhost:4200/periodo/create> sem ter o papel 'aluno' atribuído e verificar a página de _forbidden access_.
-
+- Todas as rotas da aplicacão (Frontend e backend) estão seguras e é necessário TOKEN do usuário logado, para enviar requisicões ao backend ou acessar telas do frontend de acordo com papel cadastrado.
 ###### Dúvidas entre em contato no Whatsapp ou E-mail:
 - (88) 9 9651 - 0001
 - tallys.prado@gmail.com
