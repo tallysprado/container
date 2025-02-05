@@ -39,7 +39,7 @@ ___
 docker-compose down -v
 ```
 ## e acessar a documentação de cada repositório separadamente.
-
+#### O backend possui rotas seguras, sendo necessário __token__ autenticado para fazer requisicões.
 ### Cenários de teste:
 - Menu "Usuários -> Criar": (criar usuários para acessar a aplicação através da matrícula e senha 123)
     - Nome, Cargo e CPF são dados obrigatórios e exclusivos (validação backend para exception de constraint)
