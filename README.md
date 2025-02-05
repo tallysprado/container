@@ -58,6 +58,7 @@ docker-compose down -v
     - Possibilita excluir o usuário da base e do Keycloak (futuramente deve-se habilitar este botão para roles específicas apenas)
 - Menu "Matrícula - Aluno": (relacionar disciplina x usuário)
     - É listado apenas entidade Aluno.
+    - Esta tela apresenta itens (disciplinas) inseridos na base de dados durante a inicializacão do Quarkus, no import.sql.
     - Nome é auto-complete com os alunos cadastrados, ao selecionar deve aparecer a lista de disciplinas disponíveis
     e as matriculadas. Selecionar e salvar vai atualizar os dados da linha expandível da tela de filtros.
     - Campo de filtro "matrícula" ainda está em construção :construction:
