@@ -75,4 +75,4 @@ porém vale testar o acesso à rota <http://localhost:4200/periodo/create> sem t
 - tallys.prado@gmail.com
 
 #### Rotas do Backend:
-<a href="https://ibb.co/fhRp8mj"><img src="https://i.ibb.co/BXDZ480/rotas.png" alt="rotas" border="0"></a>
+<img src="https://i.ibb.co/BXDZ480/rotas.png" alt="rotas" border="0">
