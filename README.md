@@ -73,3 +73,6 @@ porém vale testar o acesso à rota <http://localhost:4200/periodo/create> sem t
 ###### Dúvidas entre em contato no Whatsapp ou E-mail:
 - (88) 9 9651 - 0001
 - tallys.prado@gmail.com
+
+#### Rotas do Backend:
+<a href="https://ibb.co/fhRp8mj"><img src="https://i.ibb.co/BXDZ480/rotas.png" alt="rotas" border="0"></a>
